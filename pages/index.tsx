@@ -3,6 +3,7 @@ import Particles from "react-tsparticles";
 import { useCallback } from "react";
 import { loadFull } from "tsparticles";
 import { Container as EngineContainer, Engine } from "tsparticles-engine";
+import Link from "next/link";
 
 const Container = styled.div`
   margin-top: 4rem;
@@ -113,6 +114,7 @@ const Button = styled.a`
   background-color: rgb(37, 99, 235);
   &:hover {
     background-color: rgb(59 130 246);
+    cursor: pointer;
   }
 `;
 
@@ -221,7 +223,9 @@ export default function Home() {
               Feel free to take a look at my blogs on the web portfolio page.
             </Text>
             <ButtonWapper>
-              <Button href="/about">About me</Button>
+              <Link href="/about">
+                <Button>About me</Button>
+              </Link>
             </ButtonWapper>
           </Content>
         </ContentWapper>
