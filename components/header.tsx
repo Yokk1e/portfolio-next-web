@@ -143,7 +143,7 @@ export function Header() {
         <WapperHeader>
           <WapperHeaderContent>
             <Link href="/">
-              <LinkMain>satthabut.dev</LinkMain>
+              <LinkMain>satthabut</LinkMain>
             </Link>
             <MenuBar>
               <WapperMenuBar>
