@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import styled from "styled-components";
 import Icon from "./icons";
 
@@ -133,9 +133,13 @@ export function Header() {
   const router = useRouter();
   const [active, setActive] = useState<boolean>(false);
 
-  function toggleNavBar() {
+  const toggleNavBar = useCallback(() => {
     setActive((isActive) => !isActive);
-  }
+  }, []);
+
+  useEffect(() => {
+    setActive(false);
+  }, [router.pathname]);
 
   return (
     <MainHeader>
