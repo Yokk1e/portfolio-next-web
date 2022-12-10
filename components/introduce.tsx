@@ -147,7 +147,7 @@ const TopicWapper2 = styled.div`
     max-width: 768px;
   }
   @media (min-width: 1024px) {
-    padding-top: 4rem;
+    padding-top: 2rem;
     max-width: 1024px;
   }
   @media (min-width: 1280px) {
@@ -182,9 +182,9 @@ export function Introduce() {
           <IntroTextWapper>
             <IntroTextHeader>Hi 👋 I'm Satthabut</IntroTextHeader>
             <Text>
-              I'm a Full Stack Developer. I started coding at the age of
-              nineteen and I have 2 years of experience working professionally as
-              a Developer and I am more passionate about it than ever before.
+              I'm a Software Engineer. I started coding at the age of
+              nineteen and I have 2 years of experience working professionally
+              as a Developer and I am more passionate about it than ever before.
             </Text>
             <Text>
               Hopefully, you'll get some insights about myself and my work on
@@ -198,15 +198,25 @@ export function Introduce() {
         <TopicWapper>
           <TopicHeader>Current Position</TopicHeader>
           <Text>
-            Full Stack Developer @{" "}
-            <InternalLink href="https://hocco.co/" target="_blank">
-              Hocco
+            Software Engineer @{" "}
+            <InternalLink
+              href="https://www.hlabconsulting.com/"
+              target="_blank"
+            >
+              H-Lab
             </InternalLink>{" "}
-            (Jun 2020 - Present)
+            (Dec 2022 - Present)
           </Text>
         </TopicWapper>
         <TopicWapper2>
           <TopicHeader>Former Position</TopicHeader>
+          <Text>
+            Software Engineer @{" "}
+            <InternalLink href="https://hocco.co/" target="_blank">
+              Hocco
+            </InternalLink>{" "}
+            (Jun 2020 - Nov 2022)
+          </Text>
           <Text>
             Intern Java Developer @{" "}
             <InternalLink href="https://avlgb.com/" target="_blank">
