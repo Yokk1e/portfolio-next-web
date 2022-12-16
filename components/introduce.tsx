@@ -180,7 +180,7 @@ export function Introduce() {
       <ProfileContentWapper>
         <ProfileIntro>
           <IntroTextWapper>
-            <IntroTextHeader>Hi 👋 I'm Satthabut</IntroTextHeader>
+            <IntroTextHeader>Hi ✋ I'm Satthabut</IntroTextHeader>
             <Text>
               I'm a Software Engineer. I started coding at the age of
               nineteen and I have 2 years of experience working professionally
